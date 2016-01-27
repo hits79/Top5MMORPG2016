@@ -7,6 +7,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="main_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
     <!-- Intro Text & Summary style -->
     <style name="intro_text">
         <item name="android:textSize">16sp</item>

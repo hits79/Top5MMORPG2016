@@ -13,11 +13,8 @@
 
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:layout_marginBottom="16dp"
-            android:src="@drawable/image1"
-            android:scaleType="centerCrop"/>
+            style="@style/main_image"
+            android:src="@drawable/image1" />
 
         <TextView
             style="@style/intro_text"
